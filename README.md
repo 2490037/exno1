@@ -136,6 +136,7 @@ ran['sepal_width']
 ~~~
 sns.boxplot(x='sepal_width',data=ran)
 ~~~
+
 # OUTPUT
 <img width="736" height="507" alt="Screenshot 2026-01-31 110306" src="https://github.com/user-attachments/assets/c6213908-9b32-4cca-9568-fc9557b3e041" />
 
@@ -145,12 +146,16 @@ import scipy.stats as stats
 z=np.abs(stats.zscore(ir['petal_length']))
 z
 ~~~
+
 # OUTPUT
 <img width="857" height="630" alt="Screenshot 2026-01-31 110315" src="https://github.com/user-attachments/assets/940d2c44-1785-48fb-a810-e3508e2aecb5" />
+
 ~~~
 ir1=ir[z<3]
 ir1
 ~~~
+
+
 # OUTPUT
 
 <img width="763" height="525" alt="Screenshot 2026-01-31 110328" src="https://github.com/user-attachments/assets/020cfab1-6d38-4db9-920a-70884479a996" />
